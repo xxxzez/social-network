@@ -5,9 +5,10 @@ const Header = () => {
     return (
         <header className={s.header}>
             <img
-                src="https://ih1.redbubble.net/image.604709628.0369/flat,550x550,075,f.jpg"
+                src="https://upload.wikimedia.org/wikipedia/ru/2/2c/NAVI_logo.png"
                 alt=""
             />
+            <h1>Social network</h1>
         </header>
     );
 };

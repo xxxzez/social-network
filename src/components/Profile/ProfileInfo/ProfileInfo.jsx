@@ -3,11 +3,11 @@ import s from "./ProfileInfo.module.css";
 
 const ProfileInfo = () => {
   return (
-    <div>
+    <div className='wrapper'>
       <div>
-        <img src="https://game-tournaments.com/media/news/n19508.jpeg" alt="" />
+        <img src="https://csgoluxe.ru/wp-content/uploads/2019/01/katowice.jpg" alt="" />
       </div>
-      <div className={s.descriptionBlock}>ava + description</div>
+      <div className={s.descriptionBlock}><h2>IEM Katowice 2019</h2></div>
     </div>
   );
 };
